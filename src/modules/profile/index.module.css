@@ -6,10 +6,28 @@
 
 .item_project {
   display: flex;
-  width: 20%;
+  flex-direction: column;
+  align-items: center;
+
+  width: 300px;
   min-height: 200px;
   border-radius: 20px;
-  background-color: #0093E9;
-  background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
+  background-image: linear-gradient(to left, #09203f 0%, #537895 100%);
+
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+}
+
+.img_thumbnail {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.box_project_info {
+  width: 80%;
+  margin-bottom: 20px;
 }
